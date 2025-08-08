@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="theme-color" content="#111827" />
+  <title>My Link in Bio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="iabBanner" class="iab-banner" hidden>
+    <div class="iab-text">
+      <strong>Open in your browser</strong>
+      <span class="iab-sub">You're viewing inside an app. Open in Chrome/Safari for the best experience.</span>
+    </div>
+    <div class="iab-actions">
+      <a id="iabOpenBtn" class="btn btn-primary" href="#">Open in Browser</a>
+      <button id="iabCopyBtn" class="btn" type="button">Copy link</button>
+      <button id="iabCloseBtn" class="btn-icon" type="button" aria-label="Close">×</button>
+    </div>
+  </div>
+
+  <header class="profile-header">
+    <img src="images/1profile.jpg" alt="Pro Contents profile" class="profile-img" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'112\' height=\'112\' viewBox=\'0 0 112 112\'><rect width=\'112\' height=\'112\' rx=\'56\' fill=\'%23111827\'/><circle cx=\'56\' cy=\'44\' r=\'22\' fill=\'%239ca3af\'/><rect x=\'24\' y=\'72\' width=\'64\' height=\'24\' rx=\'12\' fill=\'%239ca3af\'/></svg>'" />
+    <h1 class="profile-name">Pro Contents</h1>
+    <p class="profile-username">@procontent69</p>
+    <p class="profile-bio">🔥 Hot videos • 🔞 Sex videos • 🆕 Latest drops</p>
+    <nav class="profile-socials" aria-label="Social links">
+      <a href="#" target="_blank" rel="noopener" aria-label="Instagram" class="social-link">
+        <img src="images/insta.jpg" alt="Instagram" />
+      </a>
+      <a href="#" target="_blank" rel="noopener" aria-label="YouTube" class="social-link">
+        <img src="images/youtube.svg" alt="YouTube" />
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-section" aria-labelledby="search-heading">
+      <h2 id="search-heading" class="sr-only">Search</h2>
+      <input id="searchInput" type="search" placeholder="Search links..." autocomplete="off" />
+    </section>
+
+    <section class="links-section" aria-labelledby="links-heading">
+      <h2 id="links-heading" class="section-title">Links</h2>
+      <ul id="postsList" class="posts-list" aria-live="polite">
+        <!-- Items injected by script.js -->
+      </ul>
+      <p id="emptyState" class="empty-state" hidden>No results found.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Your Name · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

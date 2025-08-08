@@ -1,0 +1,11 @@
+# Example links.txt
+# Format: Post.no:1 Title:Hot Post Link:https://example.com Img:images/insta.svg
+Post.no:1 Title:Instagram Link:https://instagram.com/yourhandle Img:images/insta.svg
+Post.no:2 Title:YouTube Link:https://youtube.com/@yourchannel Img:images/youtube.svg
+Post.no:3 Title:Portfolio Link:https://yourdomain.com
+Post.no:4 Title:Contact Link:mailto:you@example.com
+Post.no:1 Title:Instagram Link:https://instagram.com/yourhandle Img:images/insta.svg
+Post.no:1 Title:Instagram Link:https://instagram.com/yourhandle Img:images/insta.svg
+Post.no:1 Title:Instagram Link:https://instagram.com/yourhandle Img:images/insta.svg
+Post.no:1 Title:Instagram Link:https://instagram.com/yourhandle Img:images/insta.svg
+Post.no:100 Title:Instagram Link:https://instagram.com/yourhandle Img:images/insta.svg

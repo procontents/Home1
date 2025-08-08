@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "Instagram", "url": "https://instagram.com/yourhandle", "thumbnail": "images/insta.svg" },
+  { "id": 2, "title": "YouTube", "url": "https://youtube.com/@yourchannel", "thumbnail": "images/youtube.svg" },
+  { "id": 3, "title": "My Portfolio", "url": "https://yourdomain.com" },
+  { "id": 4, "title": "Contact", "url": "mailto:you@example.com" }
+]
